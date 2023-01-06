@@ -1,0 +1,167 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.clear{
+	clear: both;
+}
+:root{
+	--bg-red:red;
+	--bg-black:black;
+}
+body{
+	width: 1000px;
+	height: 00px;
+	border:0px solid red;
+	margin: auto;
+	background-color: var(--bg-black);
+}
+header{
+	width: 1000px;
+	border: 0px solid red;
+	height: 186px;
+	background: url(image/headerbg.jpg);
+}
+.logo{
+	float: left;
+	width: 250px;
+	height: 160px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 0px solid green;
+}
+.header_con{
+	float: left;
+	width: 34%;
+	border: 0px solid red;
+	font-family: airal;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.info{
+	float: right;
+	width: 270px;
+	height: 132px;
+	border: 0px solid black;
+	text-align: right;
+	font-size: 25px;
+	background: url(image/shyam.png) no-repeat;
+	padding-top: 20px;
+	margin-top: 20px;
+	padding-right: 30px;
+	margin-left: 10px;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background: url(image/menubg.jpg);
+}
+nav ul{
+	width: 1000px;
+	display: flex;
+	list-style:none; 
+}
+nav ul li{
+	width: 127px;
+	height: 44px;
+	padding: 10px;
+	padding-left: 35px;
+	font-size: 16px;
+	font-family: airal;
+	margin-left: 20px;
+	margin-top: 5px;
+	background: url(image/menubackground.png) no-repeat;
+	font-weight: bold;
+	color: blue;
+	cursor: pointer;
+	transition: 1s;
+}
+nav ul li:hover{
+	color: white;
+}
+aside ul li {
+	width: 190px;
+	background: url(image/leftmenubg.png) no-repeat;
+	list-style: none;
+	text-align: center;
+	padding:10px;
+	margin: 5px;
+	font-family: airal;
+	font-weight: bold;
+	color: blue;
+	border: 0px solid red;
+}
+aside ul{
+	float: left;
+}
+figure img{
+	width: 750px;
+	height: 245px;
+	border: 0px solid green;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.mid_con{
+	width: 250px;
+	height:176px;
+	border: 2px solid white;
+	background: url(image/whybg.jpg);
+	padding-top: 15px;
+	color: white;
+	font-size: 17px;
+	margin-top: 15px;
+	float: left;
+	margin-left: -213px;
+}
+.mid_con h4{
+	padding-left: 50px;
+}
+.mid_con ol{
+	border: 0px solid red;
+	padding-left: 40px;
+	margin-top: 20px;
+}
+.mid_conpart1{
+	width: 305px;
+    height: 179px;
+    border: 2px solid white;
+    margin: 15px;
+    padding-top: 15px;
+    color: white;
+    font-size: 17px;
+    background-color: brown;
+    float: left;
+}
+.mid_conpart1 h4{
+	padding-left: 50px;
+}
+.mid_conpart1 ol{
+	border: 0px solid red;
+	padding-left: 40px;
+	margin-top: 12px;
+}
+.img{
+	width: 389px;
+    height: 197px;
+    margin-top: 5px;
+}
+footer{
+	width: 1000px;
+	height: 40px;
+	background: url(image/footer_middle.png) repeat-x;
+	border-radius: 20px 20px 20px 20px;
+	text-align: center;
+	font-family: airal;
+	padding-top: 15px;
+	margin-top: -5px;
+	cursor: pointer;
+	color: blue;
+	font-size: 18px;
+
+}
+
+
